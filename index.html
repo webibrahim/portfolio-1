@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/733af1b2f5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="img/profile-img.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    
+<!---header start-->
+   <header>
+        <!-----profile-->
+        <div class="profile">
+            <img src="img/profile-img.jpg" alt="" width="150px">
+            <h1>M Alitsi</h1>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-upwork"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+<!---navbar-->
+<nav>
+    <ul>
+        <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+        <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="fa-solid fa-server"></i> Services</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+    </ul>
+</nav>
+<div class="footer">
+    <p>&copy; Copyright 2024 <br>Designed By <a href="alitsimulama.com" target="_blank">Alitsi.com</a></p>
+</div>
+<!---Footer-->
+   </header>
+   <!--mobile nav toggle-->
+   <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+
+<!--===== ALL BODY CONTENT=====-->
+
+<main>
+    <!--home section start-->
+    <section id="home">
+        <div class="home-row">
+            <h1>Hi, This is <br>Ibrahim Alitsi<span>.</span></h1>
+            <p>I'm a <span class="auto-input"></span></p>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let typed = new Typed('.auto-input', {
+                strings: ['Fronted-End Developer!', 'Freelancer!', 'UI Designer!', 'Web Desiner!'],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 2000,
+                loop: true,
+            });
+        });
+    </script>
+<!--About Section-->
+<section>
+    <div id="about">
+
+        <h1 class="sub-heading">About Me</h1>
+        <div class="divider">
+
+        </div>
+        <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia magni dolorum incidunt enim mollitia 
+            modi quos excepturi quam unde qui iusto architecto molestiae, atque delectus cumque 
+            laborum provident explicabo.</p>
+
+            <div class="about-col">
+                <div class="img-col">
+                    <img src="img/profile-img.jpg">
+                </div>
+                <div class="info-col">
+                    <h2>Front-end Developer!</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempora, 
+                        in recusandae quia obcaeca</p>
+                        <div class="icon-list-col">
+                            <div class="icon-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong> <span>22 Jan 2004</span></li>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Website:</strong> <span>www.alitsi.com</span></li>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Phone:</strong> <span>+254792735063</span></li>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>City:</strong> <span>Nakuru, kenya</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="icon-list">
+                                <ul>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>21</span></li>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Degree:</strong> <span>Diploma</span></li>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong> <span>alitsimulama709@gmail.com</span></li>
+                                    <li><i class="fa-solid fa-angle-right"></i> <strong>Freelancer:</strong> <span>Available</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+    </div>
+</section>
+
+<!--facts section-->
+<section id="fact">
+    <h1 class="sub-heading">Facts</h1>
+    <div class="divider">
+
+    </div>
+    <p class="sub-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus blanditiis deleniti placeat. 
+        Quo quod sint similique vitae assumenda, cum itaque suscipit molestias fugit. Sunt, saepe ducimus 
+        debitis iste aperiam doloremque.</p>
+
+        <div class="facts-row">
+            <div class="facts-box">
+                <i class="fa-regular fa-face-smile"></i>
+                <strong>50+</strong>
+                <p>Happy Clients</p>
+            </div>
+            <div class="facts-box">
+                <i class="fa-regular fa-file-code"></i>
+                <strong>60+</strong>
+                <p>Project Completed</p>
+            </div>
+            <div class="facts-box">
+                <i class="fa-solid fa-headset"></i>
+                <strong>24/7</strong>
+                <p>Hours of Support</p>
+            </div>
+            <div class="facts-box">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <strong>10+</strong>
+                <p>Pending Orders</p>
+            </div>
+        </div>
+</section>
+
+<!-----------------skills section-------------------->
+
+<section id="skill">
+
+    <h1 class="sub-heading">Skills</h1>
+    <div class="divider">
+    
+    </div>
+    <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Hic recusandae, cumque aut atque illo id dolorem molestiae deserunt corporis ex,
+         necessitatibus iusto similique, ullam eum aperiam mollitia! Voluptatum, totam officia.</p>
+
+         <div class="skill-row">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>HTML</h2>
+                    <h2>95%</h2>
+                </div>
+                <div class="skills-outer-line">
+                    <div class="skills-inner-line" style="width: 95%;">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>CSS</h2>
+                    <h2>85%</h2>
+                </div>
+                <div class="skills-outer-line">
+                    <div class="skills-inner-line" style="width: 85%;">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>JavaScript</h2>
+                    <h2>70%</h2>
+                </div>
+                <div class="skills-outer-line">
+                    <div class="skills-inner-line" style="width: 70%;">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>Web Designing</h2>
+                    <h2>85%</h2>
+                </div>
+                <div class="skills-outer-line">
+                    <div class="skills-inner-line" style="width: 85%;">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h2>WordPress</h2>
+                    <h2>95%</h2>
+                </div>
+                <div class="skills-outer-line">
+                    <div class="skills-inner-line" style="width: 95%;">
+                        
+                    </div>
+                </div>
+            </div>
+
+         </div>
+
+</section>
+
+<!---=====-resume section======------->
+
+<section id="resume">
+
+    <h1 class="sub-heading">Resume</h1>
+    <div class="divider"></div>
+    <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Qui soluta maiores corporis ut est repudiandae ducimus laboriosam, porro
+         error quod laudantium! Laudantium odit aut, numquam cupiditate voluptate rerum cum distinctio.</p>
+
+         <div class="resume-row">
+            <div class="resume-cols">
+                <h2>Summary</h2>
+                <div class="my-info">
+                    <h3>M ALITSI</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                         sint ex delectus sit quosi.</p>
+                         <ul>
+                            <li>Barut street, Nakuru kenya</li>
+                            <li>+254 792735063</li>
+                            <li>alitsimulama709@gmail.com</li>
+                         </ul>
+                </div>
+
+                <h2>Education</h2>
+
+                <div class="my-edu">
+                    <h3>MASTER of fine arts & graphic design</h3>
+                    <span class="sp-box">2015-2016</span>
+                    <p>Germain Institute of Science and Technology</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quisquam libero magni 
+                       fugit similique iure facilis cupiditate quas est asperiores.</p>
+                </div>
+
+
+
+            </div>
+
+            <div class="resume-cols">
+
+                <h2>Proffessional Experience</h2>
+
+                <div class="pro-exp">
+                    <h3>Senior Graphic Designer</h3>
+                    <span class="sp-box">2023-present</span>
+                    <p>Nairobi, Kenya, KY</p>
+
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis culpa 
+                            ipsum saepe vero sit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis culpa 
+                            ipsum saepe vero sit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis culpa 
+                            ipsum saepe vero sit.</li>
+                    </ul>
+                </div>
+
+                <div class="pro-exp">
+                    <h3>Graphic Designer</h3>
+                    <span class="sp-box">2019-2023</span>
+                    <p>Nairobi, Kenya, KY</p>
+
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis culpa 
+                            ipsum saepe vero sit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis culpa 
+                            ipsum saepe vero sit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis culpa 
+                            ipsum saepe vero sit.</li>
+                    </ul>
+                </div>
+ 
+
+
+            </div>
+         </div>
+</section>
+
+<!------------------portfolio section----------------------->
+
+<section id="portfolio">
+
+    <h1 class="sub-heading">Portfolio</h1>
+    <div class="divider"></div>
+    <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt soluta 
+        ducimus! Quos doloribus aliquid hic nesciunt modi, ratione voluptate assumenda sequi! Culpa esse
+         voluptatibus temporibus qui nesciunt veniam error.</p>
+
+         <div class="port-row">
+            <div class="port-item">
+                <div class="port-img">
+                    <img src="img/portfolio/portfolio1.jpg">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="port-item">
+                <div class="port-img">
+                    <img src="img/portfolio/portfolio2.jpg">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="port-item">
+                <div class="port-img">
+                    <img src="img/portfolio/portfolio3.jpg">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="port-item">
+                <div class="port-img">
+                    <img src="img/portfolio/portfolio4.jpg">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="port-item">
+                <div class="port-img">
+                    <img src="img/portfolio/portfolio5.jpg">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="port-item">
+                <div class="port-img">
+                    <img src="img/portfolio/portfolio6.jpg">
+                </div>
+                <div class="port-info">
+                    <h4>WordPress</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatem.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+         </div>
+
+</section>
+
+<!-----------------------------Services section--------------------------->
+
+<section id="services">
+    <h1 class="sub-heading">Services</h1>
+    <div class="divider"></div>
+    <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt soluta 
+        ducimus! Quos doloribus aliquid hic nesciunt modi, ratione voluptate assumenda sequi! Culpa esse
+        voluptatibus temporibus qui nesciunt veniam error.</p>
+        
+        <div class="service-row">
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor deleniti hic
+                     veniam dolore cum tempore!</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-list-check"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor deleniti hic
+                     veniam dolore cum tempore!</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-chart-bar"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor deleniti hic
+                     veniam dolore cum tempore!</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-binoculars"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor deleniti hic
+                     veniam dolore cum tempore!</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor deleniti hic
+                     veniam dolore cum tempore!</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="icon">
+                    <i class="fa-brands fa-slack"></i>
+                </div>
+                <div class="ser-info">
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor deleniti hic
+                     veniam dolore cum tempore!</p>
+                </div>
+            </div>
+
+        </div>
+
+</section>
+
+<!----------contact section---------->
+<section id="contact">
+
+    <h1 class="sub-heading">Contact</h1>
+    <div class="divider"></div>
+    <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda incidunt soluta 
+        ducimus! Quos doloribus aliquid hic nesciunt modi, ratione voluptate assumenda sequi! Culpa esse
+        voluptatibus temporibus qui nesciunt veniam error.</p>
+
+        <div class="contact-row">
+
+            <div class="contact-left">
+
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="info">
+                        <h4>Email:</h4>
+                        <p>alitsimulama709@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="info">
+                        <h4>Call:</h4>
+                        <p>+254 792735063</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="info">
+                        <h4>Location:</h4>
+                        <p>Barut str, Nakuru Kenya</p>
+                    </div>
+                </div>
+
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.024371562999!2d36.
+                    03197515010834!3d-0.320001965069877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18298f
+                    c6077ad6a3%3A0x83c8bf7d512edd56!2sBARUT%20PRIMARYMARY!5e0!3m2!1sen!2ske!4v1709209334425!5m2!1sen!2ske"
+                     width="100%" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                    <input type="text" name="subject" id="subject" placeholder="subject">
+                    <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            
+        </div>         
+        </div>
+
+</section>
+
+</main>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
